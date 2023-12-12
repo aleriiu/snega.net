@@ -273,6 +273,11 @@ title {
         width: 70%;
         margin: 0 auto;
     }
+
+    .hero {
+        width: 48%;
+        margin: 0;
+    }
 }
 
 @media (max-width: 1080px) {
