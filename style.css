@@ -402,11 +402,19 @@ title {
     }
 
     .header-logo_text {
+        font-size: 1.5rem;
+    }
+
+    .header-logo_text-mob {
         display: none;
     }
 
     .socials-links-mob {
         display: block;
+    }
+
+    .socials-links-img {
+        width: 40px;
     }
 
     .hero {
@@ -484,7 +492,7 @@ title {
     .header-logo_img {
         width: 40px;
     }
-
+    .header-logo_text,
     .hero_promo-descr {
         font-size: 0.8rem;
     }
