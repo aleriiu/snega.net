@@ -5,6 +5,14 @@
     font-family: 'Wix Madefor Display', sans-serif;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
 .hero-bg-container {
     background-image: url(./images/bg.png);
     background-repeat: no-repeat;
@@ -38,6 +46,19 @@
     color: #ffffff;
     font-size: 2rem;
     font-weight: 700;
+}
+
+header a::after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #ffffff;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+
+}
+
+header a:hover::after {
+    transform: scaleX(1);
 }
 
 /* hero */
@@ -246,10 +267,11 @@ title {
     0% {
         transform: rotate(0);
     }
+
     100% {
         transform: rotate(30deg);
     }
-    
+
 }
 
 .footer-btn-img,
@@ -264,7 +286,7 @@ title {
 }
 
 .footer:hover .socials,
-.footer:active .socials{
+.footer:active .socials {
     opacity: 1;
 }
 
@@ -403,6 +425,11 @@ title {
     .description,
     .services {
         padding: 1.25rem;
+    }
+
+    .hero-bg-container {
+        background-image: url(./images/bg_mob.png);
+        background-position: bottom center;
     }
 
     .header-logo {
