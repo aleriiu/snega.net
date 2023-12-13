@@ -176,7 +176,7 @@ header a:hover::after {
     width: 48%;
 }
 
-.adv {
+.advantages {
     display: flex;
     gap: 0.938rem;
     flex-direction: column;
@@ -343,7 +343,7 @@ title {
     }
 
     .title,
-    .adv,
+    .advantages,
     .services-list_container {
         width: 100%;
     }
